@@ -1,0 +1,6 @@
+package convo1;
+
+public class docente extends Persona {
+	private String asignatura;
+
+}

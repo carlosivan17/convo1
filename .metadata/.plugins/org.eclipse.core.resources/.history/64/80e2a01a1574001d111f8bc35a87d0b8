@@ -1,0 +1,60 @@
+package convo1;
+
+public class Productos {
+	private String lavadora;
+	private String  plancha;
+	private String televisor;
+	private String microondas;
+	private double precio;
+	public Productos(String lavadora, String plancha, String televisor, String microondas, double precio) {
+		super();
+		this.lavadora = lavadora;
+		this.plancha = plancha;
+		this.televisor = televisor;
+		this.microondas = microondas;
+		this.precio = precio;
+	}
+	
+	public void mostrar() {
+		System.out.println("El precio de la " + lavadora + " es de " + precio);
+		System.out.println("El precio de la " + plancha + " es de " + precio);
+		System.out.println("El precio de la " + televisor + " es de " + precio);
+		System.out.println("El precio de la " + microondas + " es de " + precio);
+		
+	}
+	public String mostrarLavadora() {
+		return lavadora;
+	}
+	public void ponerLavadora(String lavadora) {
+		this.lavadora = lavadora;
+	}
+	public String mostrarPlancha() {
+		return plancha;
+	}
+	public void ponerPlancha(String plancha) {
+		this.plancha = plancha;
+	}
+	public String mostrarTelevisor() {
+		return televisor;
+	}
+	public void ponerTelevisor(String televisor) {
+		this.televisor = televisor;
+	}
+	public String mostrarMicroondas() {
+		return microondas;
+	}
+	public void ponerMicroondas(String microondas) {
+		this.microondas = microondas;
+	}
+	public double mostrarPrecio() {
+		return precio;
+	}
+	public void ponerPrecio(double precio) {
+		this.precio = precio;
+	}
+	
+	
+	
+	
+
+}

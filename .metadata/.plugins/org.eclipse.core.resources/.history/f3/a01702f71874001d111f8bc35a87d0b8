@@ -1,0 +1,36 @@
+package convo1;
+
+import java.util.Scanner;
+
+public class tienda {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("--------------------------------");
+		System.out.println("Bienvenido a Electroman");
+		System.out.println("--------------------------------");
+		System.out.println("Para ver que productos tenemos presione...");
+		System.out.println("1. Productos.");
+		System.out.println("2. para realizar una compra presione 2.");
+		int op = sc.nextInt();
+		
+		switch(op) {
+		case 1:
+			lavadora  producto1 = new lavadora("Lavadora", "TelStar", 5800);
+			microondas producto2 = new microondas("Microondas", "Black+Decker", 2000);
+			televisor producto3 = new televisor("Televisor", "LG", "42pulgadas", 4800);
+			
+			System.out.println("Lavadora ");
+			producto1.mostrar();
+			System.out.println("Microondas ");
+			producto2.mostrar();
+			System.out.println("Televisor ");
+			producto3.mostrar();
+			break;
+		}
+		
+
+	}
+
+}

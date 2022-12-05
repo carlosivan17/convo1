@@ -1,0 +1,36 @@
+package convo1;
+
+public class Productos {
+	private String lavadora;
+	
+	private double precio;
+	public Productos(String lavadora, double precio) {
+		super();
+		this.lavadora = lavadora;
+		
+		this.precio = precio;
+	}
+	
+	public void mostrar() {
+		System.out.println("El precio de la " + lavadora + " es de " + precio);
+		
+	}
+	public String mostrarLavadora() {
+		return lavadora;
+	}
+	public void ponerLavadora(String lavadora) {
+		this.lavadora = lavadora;
+	}
+	
+	public double mostrarPrecio() {
+		return precio;
+	}
+	public void ponerPrecio(double precio) {
+		this.precio = precio;
+	}
+	
+	
+	
+	
+
+}

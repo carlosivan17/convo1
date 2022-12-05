@@ -1,0 +1,20 @@
+package convo1;
+
+import java.util.Scanner;
+
+public class tienda {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("--------------------------------");
+		System.out.println("Bienvenido a Electroman");
+		System.out.println("--------------------------------");
+		System.out.println("Para ver que productos tenemos presione...");
+		System.out.println("1. Productos.");
+		int op = 0;
+		
+
+	}
+
+}

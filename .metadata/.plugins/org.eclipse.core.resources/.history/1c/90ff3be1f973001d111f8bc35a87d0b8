@@ -1,0 +1,26 @@
+package convo1;
+
+import java.util.Scanner;
+import javax.swing.JOptionPane;
+
+public class Tienda {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		principal p = new principal();
+		int opcion = 0;
+		
+		try {
+			do {
+				System.out.println("-------------------------------");
+				System.out.println("Bienvenidos a Electroman");
+				System.out.println("-------------------------------");
+				System.out.println("--------Menu de Opciones-------");
+				System.out.println();
+			}
+		}
+		
+
+	}
+
+}
