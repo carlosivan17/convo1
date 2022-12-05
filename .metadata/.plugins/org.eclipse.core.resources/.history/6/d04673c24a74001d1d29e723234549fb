@@ -14,8 +14,6 @@ public class tienda {
 		System.out.println("--------------------------------");
 		System.out.println("Bienvenido a Electroman");
 		System.out.println("--------------------------------");
-		System.out.println("Tienda de Electrodomesticos");
-		System.out.println("--------------------------------");
 		System.out.println("Para ver que productos tenemos presione...");
 		System.out.println("1. Productos.");
 		System.out.println("2. para realizar una compra presione 2.");
